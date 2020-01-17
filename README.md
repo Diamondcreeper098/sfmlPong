@@ -8,6 +8,6 @@ up & down arrow keys moves Right paddle down & up
 
 # credits
 
-pongblipE4.wav by NoiseCollector -- https://freesound.org/s/4387/ -- License: Attribution
+Pong_E4.wav by NoiseCollector -- https://freesound.org/s/4387/ -- License: Attribution
 
-pongblipE5.wav by NoiseCollector -- https://freesound.org/s/4388/ -- License: Attribution
+Pong_E5.wav by NoiseCollector -- https://freesound.org/s/4388/ -- License: Attribution
