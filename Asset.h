@@ -16,6 +16,10 @@ namespace Asset {
             static char* BoldItalic = "Assets/Fonts/OpenSans/OpenSans-BoldItalic.ttf";
         };
     };
+    namespace Sound{
+        static char* Pong_E4 = "Assets/Sound/Pong_E4.wav";
+        static char* Pong_E5 = "Assets/Sound/Pong_E5.wav";
+    };
 };
 
 

@@ -39,16 +39,20 @@ bool Ball::intersectAll(Paddle &pad) {
 
 bool Ball::intersectX(Paddle &pad) {
     int padx = pad.getPosition().x;
+    int pady = pad.getPosition().y;
     int padW = pad.getSize().x;
-    if(padx < Ball_X + Ball_W && padx + padW > Ball_X){
+    int padH = pad.getSize().y;
+    if(padx < Ball_X + Ball_W && padx + padW > Ball_X && (Ball_Y <= pady && Ball_Y + Ball_H >= pady + padH)){
         return true;
     }
     return false;
 }
 bool Ball::intersectY(Paddle &pad) {
+    int padx = pad.getPosition().x;
     int pady = pad.getPosition().y;
+    int padW = pad.getSize().x;
     int padH = pad.getSize().y;
-    if(pady < Ball_Y+Ball_H && pady + padH > Ball_Y){
+    if(pady < Ball_Y+Ball_H && pady + padH > Ball_Y &&(Ball_X <= padx && Ball_X + Ball_W >= padx + padW)){
         return true;
     }
     return false;
