@@ -34,18 +34,18 @@ int main() {
     sf::SoundBuffer Pong_E5;
     sf::Sound Pong_Blip;
     if (!Pong_E4.loadFromFile(Asset::Sound::Pong_E4)){
-        std::cout << "Pong_E4 failed!" << std::endl;
+        std::cout << "Loading Asset::Pong_E4 failed!" << std::endl;
         return -1;
     }
     else{
-        std::cout << "Pong_E4 Succeeded!" << std::endl;
+        std::cout << "Loading Asset::Pong_E4 Succeeded!" << std::endl;
     }
     if (!Pong_E5.loadFromFile(Asset::Sound::Pong_E5)){
-        std::cout << "Pong_E5 failed!" << std::endl;
+        std::cout << "Loading Assset::Pong_E5 failed!" << std::endl;
         return -1;
     }
     else{
-        std::cout << "Pong_E5 Succeeded!" << std::endl;
+        std::cout << "Loading Asset::Pong_E5 Succeeded!" << std::endl;
     }
     while(window.isOpen()){ //Main loop
         sf::Time currSec = GameClock.restart();//getting the clock reset

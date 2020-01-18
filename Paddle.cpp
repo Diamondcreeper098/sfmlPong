@@ -7,10 +7,11 @@
 #include <SFML/Graphics.hpp>
 
 Paddle::Paddle(int x, int y, int w, int h) {
-    Pad_X = x;Pad_Y = y;Pad_W = w; Pad_H = h;
+    Pad_X = x; Pad_Y = y; Pad_W = w; Pad_H = h;
     Pad = sf::RectangleShape(sf::Vector2f(w,h));
     Pad.setFillColor(sf::Color::White);
     Pad.setPosition(x,y);
+    Score = 0; //Initializes the paddle's score.
 }
 
 void Paddle::setPosition(int x, int y) {
