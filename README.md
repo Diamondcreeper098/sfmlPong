@@ -1,12 +1,14 @@
-# sfmlPong
-the hard pong game that you find unfunny
+# SFMLPong
+The hard pong game that you'll find unfunny.
 
-# help
-move mouse left paddle changes position
+# Help
+Move mouse left paddle changes position.
 
-up & down arrow keys moves Right paddle down & up
+Up & down arrow keys moves Right paddle down & up.
 
-# credits
+The mouse is used to control the left paddle.
+
+# Credits
 
 Pong_E4.wav by NoiseCollector -- https://freesound.org/s/4387/ -- License: Attribution
 
